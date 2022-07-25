@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">contactDemo</string>
+
+    <!-- Validation Error Messages -->
+    <string name="errorMsgFirstName">Please enter first name</string>
+    <string name="errorMsgValidFirstName">First name should be alphabet: \n
+        capital letters [A-Z],\n
+        small letters [a-Z] or \n
+        sign [-,_] </string>
+    <string name="errorMsgName">Please enter name</string>
+    <string name="errorMsgLastName">Please enter last name</string>
+    <string name="errorMsgEmailAddress">Please enter email address</string>
+    <string name="errorMsgValidEmailAddress">Please enter valid email address</string>
+    <string name="errorMsgPhoneNo">Please enter phone number</string>
+    <string name="errorMsgValidPhoneNo">Please enter valid phone number</string>
+
+    <string name="strOr">OK</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strYes">Yes</string>
+    <string name="strNo">No</string>
+    <string name="strPleaseWait">Please wait…</string>
+    <string name="strUpdate">Update</string>
+    <string name="strDelete">Delete</string>
+    <string name="strDismiss">Dismiss</string>
+
+    <string name="strEmail">Email</string>
+
+    <string name="strName">Name</string>
+    <string name="strAdd">Add</string>
+    <string name="strRemoveAll">Remove all</string>
+    <string name="strNoRecordFound">No record found</string>
+    <string name="strFirstName">First Name</string>
+    <string name="strLastName">Last Name</string>
+    <string name="strPhone">Phone number</string>
+
+    <string name="strSelectFile">select file</string>
+
+    <string name="strTakePhoto">Take photo</string>
+    <string name="strOpenGallery">Open Gallery</string>
+    <string name="strDialogTitle">Add photo</string>
+    <string name="strOk">Ok</string>
+    <string name="strPermissionRequired">you should allow the permission</string>
+
+    <string name="strRemove">Remove: </string>
+    <string name="strAddressBook">Address Book </string>
+    <string name="strQueMark"> \?</string>
+    <string name="strDetails"> Details</string>
+    <string name="strSave"> Save</string>
+    <string name="errorMsgToDo">stub is generated but developer or programmer need to add code as required.</string>
+
+    <string name="internet_not_available">Internet connection is unavailable</string>
+    <string name="error_msg_server">There appears to be a problem with the request.  Please try again.</string>
+    <string name="txtLoading">Loading...</string>
+</resources>

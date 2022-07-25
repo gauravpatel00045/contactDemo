@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_rowItem_dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:onClick="onClickEvent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_missing_profile_dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_rowItem_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/strName" />
+
+                <TextView
+                    android:id="@+id/txt_rowItem_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:hint="@string/strEmail" />
+
+                <TextView
+                    android:id="@+id/txt_rowItem_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:hint="@string/strPhone" />
+
+            </LinearLayout>
+
+            <ImageView
+
+                android:id="@+id/iv_rowItem_edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="onClickEvent"
+                android:src="@drawable/ic_edit_white" />
+
+            <ImageView
+                android:id="@+id/iv_rowItem_delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:onClick="onClickEvent"
+                android:src="@drawable/ic_delete" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
